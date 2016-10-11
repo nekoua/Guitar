@@ -2,7 +2,6 @@
 	background:#fff;
 	border-bottom:1px solid #ccc;
 	width:100%;
-	position:fixed;
 	top:0;
 	left:0;
 	z-index:10;
@@ -131,3 +130,152 @@
 .main-nav ul.nav > li > a.active,.main-nav ul.nav > li > a:hover {
 	color:#ab987a;
 }
+
+.slider {
+	width: 100%;
+}
+.item {
+		
+}
+.item img {
+	display: block;
+	height: 862px;
+	background: #9e9e9e;
+	margin: 0 auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15.65%;
+  bottom: 6%;
+  left: auto;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: right;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.carousel-caption .btn {
+  text-shadow: none;
+}
+.carousel-caption h3 {
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 76px;
+  text-transform: uppercase; 
+}
+.carousel-caption p {
+  font-size: 70px;
+  line-height: 72px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase; 
+}
+.carousel-caption a {
+	background: #032f3e;
+	height: 122px;
+	float: right;
+	width: 22.5%;
+	text-align: center;
+
+}
+.carousel-caption span {
+	font-size: 60px;
+	top: 25%;
+	color: #fff;
+}
+.carousel-caption span:hover {
+	opacity: .6;
+}
+
+.slider-nav {
+	width: 30px;
+	position: absolute;
+	top: 36.5%;
+	right: 1.9%;
+}
+
+.carousel-indicators {
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  width: 100%;
+  margin: 58px 0;
+  padding-left: 0;
+}
+.carousel-indicators li {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 53% auto;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 0px;
+  transform: rotate(45deg);
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 53% auto;
+  background-color: #ab987a;
+  border: none;
+}
+
+/* Left and right controls */
+
+.carousel-control {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  filter: alpha(opacity=50);
+  opacity: 1;
+ 	 
+}
+.carousel-control.left {
+	right: auto;
+  left: 0;
+  top: 0;
+  background: none;
+}
+.carousel-control.right {
+  right: auto;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  background: none;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  display: inline-block;
+  margin-top: 0;
+	left: 0;
+  margin-left: 10%;
+	transform: rotate(90deg);
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  filter: alpha(opacity=50);
+  outline: 0;
+  opacity: .5;
+}
+
+
+
+
+
+
+
